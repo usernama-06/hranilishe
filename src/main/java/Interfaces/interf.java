@@ -1,5 +1,5 @@
-package main.java.Interfaces;
+package Interfaces;
 
 public interface interf {
-    public void show_me();
+    void show_me();
 }

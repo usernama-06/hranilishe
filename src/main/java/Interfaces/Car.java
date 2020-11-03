@@ -1,4 +1,5 @@
-package main.java.Interfaces;
+package Interfaces;
+
 
 public class Car implements interf {
     public String brend;

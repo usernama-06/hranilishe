@@ -1,8 +1,13 @@
-package main.java.company;
+package company;
 
 public abstract class Bicycle {
 
-    public abstract void RIDE ();
+    //todo change to interface
+    //todo create abstract class
+    //todo code style
+    public void RIDE (){
+
+    };
 
 
 }

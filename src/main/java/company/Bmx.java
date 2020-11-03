@@ -1,4 +1,4 @@
-package main.java.company;
+package company;
 
 public class Bmx extends Bicycle {
 
