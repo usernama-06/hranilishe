@@ -1,4 +1,4 @@
-package com.company;
+package main.java.company;
 
 public abstract class Bicycle {
 
