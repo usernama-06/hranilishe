@@ -12,7 +12,6 @@ public class RideTest {
     @Test
     void rideTest() {
         Bmx bmx = new Bmx();
-
-        assertEquals("", "");
+        assertEquals("Lets ride BMX", bmx.ride());
     }
 }
