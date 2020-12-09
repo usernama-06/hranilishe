@@ -23,10 +23,10 @@ public class Main {
 
         in.close();
         if (wheelSize == mtb.wheelSize && frameSize == mtb.frameSize ){
-            mtb.RIDE();
+            mtb.ride();
         }
         if (wheelSize == bmx.wheelSize && frameSize == bmx.frameSize){
-            bmx.RIDE();
+            bmx.ride();
         }
     }
 }

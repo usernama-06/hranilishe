@@ -6,7 +6,9 @@ public class Mtb extends Bicycle {
     int frameSize = 22;
 
 
-    public void RIDE() {
+    public void ride() {
         System.out.println("Lets ride MTB");
+
+
     }
 }

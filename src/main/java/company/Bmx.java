@@ -6,7 +6,9 @@ public class Bmx extends Bicycle {
     int frameSize = 21;
 
 
-    public void RIDE() {
+    public void ride() {
         System.out.println("Lets ride BMX");
+
+
     }
 }
