@@ -1,8 +1,8 @@
-package company;
+package bikeShop;
 
 import java.util.Scanner;
 
-public class Main {
+public class TestBikeShop {
 
     public static void main(String[] args) {
         //
@@ -23,7 +23,7 @@ public class Main {
 
         in.close();
         if (wheelSize == mtb.wheelSize && frameSize == mtb.frameSize ){
-            mtb.ride();
+            mtb.destination();
         }
         if (wheelSize == bmx.wheelSize && frameSize == bmx.frameSize){
             bmx.ride();

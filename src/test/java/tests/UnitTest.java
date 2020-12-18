@@ -1,8 +1,6 @@
 package tests;
 
-import package02.QA;
-
-import java.util.Arrays;
+import developmentInterface.QA;
 
 public class UnitTest {
 

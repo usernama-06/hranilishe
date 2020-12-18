@@ -1,4 +1,4 @@
-package package02;
+package developmentInterface;
 
 public interface Result {
     public void whatYouHaveDoneToday();

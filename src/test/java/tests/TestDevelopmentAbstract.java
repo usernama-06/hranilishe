@@ -1,6 +1,9 @@
-package package01;
+package tests;
 
-public class Test {
+import developmentAbstract.Devs;
+import developmentAbstract.QA;
+
+public class TestDevelopmentAbstract {
     public static void main(String[] args) {
 
         QA qa = new QA();
