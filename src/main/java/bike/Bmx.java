@@ -1,4 +1,4 @@
-package bikeShop;
+package bike;
 
 public class Bmx extends Bicycle {
 
@@ -12,15 +12,22 @@ public class Bmx extends Bicycle {
         this.frameSize = frameSize;
     }
 
-    int frameSize = 21;
+    @Override
+    public void whatIsIt() {
+        super.whatIsIt();
+    }
+
+    public int frameSize = 21;
 
     public String message;
 
     public void ride() {
+
         System.out.println("Lets ride BMX");
     }
 
     public String letsRide() {
+
         return message = "Lets ride BMX";
     }
 }

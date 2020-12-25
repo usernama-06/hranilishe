@@ -1,8 +1,8 @@
-package bikeShop;
+package bike;
 
 import java.util.Scanner;
 
-public class TestBikeShop {
+public class TestBike {
 
     public static void main(String[] args) {
         //
