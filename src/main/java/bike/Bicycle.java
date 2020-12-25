@@ -13,7 +13,7 @@ public abstract class Bicycle {
         System.out.println("It's bicycle");
     }
 
-    public abstract void ride ();
+    public abstract void ride();
 }
 
 
