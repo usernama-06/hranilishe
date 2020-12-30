@@ -7,13 +7,13 @@ package bike;
 //done fix namings in whole project
 //done create getters and setters
 //todo refactor fields visibility
-//todo add package аксессуары
-//todo add more bikes
-//todo add more methods
 
-public interface Bicycle {
+public abstract class Bicycle {
+    public void whatIsIt() {
+        System.out.println("It's bicycle");
+    }
 
-     void ride();
+    public abstract void ride();
 }
 
 
