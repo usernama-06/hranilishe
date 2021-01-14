@@ -18,6 +18,4 @@ public class Bmx extends BikeSpec implements Bicycle {
         System.out.println("my name is"+" " + vendor +" "+"i got" + wheelSize +"inches wheel ," + " " + forkType );
 
     }
-
-
 }

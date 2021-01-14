@@ -13,7 +13,6 @@ public interface Bicycle {
    void ride();
    void speedRise();
    void bikeParts();
-
 }
 
 

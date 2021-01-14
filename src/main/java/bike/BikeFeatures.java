@@ -1,4 +1,4 @@
-package bikes;
+package bike;
 
 public abstract class BikeFeatures {
 
