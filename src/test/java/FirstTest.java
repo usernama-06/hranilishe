@@ -1,10 +1,6 @@
-import bike.BikeSpec;
 import bike.Bmx;
-import bike.TrackBike;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.Arrays;
 
 public class FirstTest {
 
@@ -14,4 +10,3 @@ public class FirstTest {
         Assert.assertEquals(bmx.howToRide(), "just pedal");
     }
 }
-
