@@ -8,12 +8,12 @@ package bike;
 //done create getters and setters
 //todo refactor fields visibility
 
-public abstract class Bicycle {
-    public void whatIsIt() {
-        System.out.println("It's bicycle");
-    }
+public interface Bicycle {
 
-    public abstract void ride();
+   void ride();
+   void speedRise();
+   void bikeParts();
+
 }
 
 

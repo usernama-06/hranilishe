@@ -1,12 +1,11 @@
 package bike;
 
-public class TrackBike extends BikeSpec implements Bicycle {
-
-
+public class Mtb extends BikeSpec implements Bicycle {
 
     @Override
     public void ride() {
-        System.out.println("lets ride track bike at high speed");
+        System.out.println("lets ride MTB");
+
     }
 
     @Override
@@ -18,7 +17,5 @@ public class TrackBike extends BikeSpec implements Bicycle {
     @Override
     public void bikeParts() {
         System.out.println("my name is"+" " + vendor +" "+"i got" + wheelSize +"inches wheel ," + " " + forkType );
-
     }
 }
-
