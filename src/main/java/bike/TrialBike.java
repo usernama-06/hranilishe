@@ -2,20 +2,18 @@ package bike;
 
 public class TrialBike extends BikeSpec implements Bicycle {
 
+    public String vendor;
+    public String bikeType;
+    public int wheelSize;
+    public int chainRingSize;
+    public int chainRingsCount;
+    public String forkType;
+    public int speed;
+
 
     @Override
     public void ride() {
-        System.out.println("lets ride trial bike");
-    }
-
-    @Override
-    public void speedRise() {
-        System.out.println(speed);
-    }
-
-    @Override
-    public void bikeParts() {
-        System.out.println("my name is"+" " + vendor +" "+"i got" + wheelSize +"inches wheel ," + " " + forkType );
-
+        System.out.println("i'm u");
     }
 }
+

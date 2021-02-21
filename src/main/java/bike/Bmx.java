@@ -1,21 +1,23 @@
 package bike;
 
+import sun.jvm.hotspot.utilities.Assert;
+
 public class Bmx extends BikeSpec implements Bicycle {
 
-    @Override
+
+    public String vendor;
+    public String bikeType = "BMX";
+    public int wheelSize = 20;
+    public int chainRingSize;
+    public int chainRingsCount;
+    public String forkType = "HardFork";
+    public int speed;
+
     public void ride() {
-        System.out.println("lets ride bmx and make a trick!");
-    }
+        System.out.println("i'm bmx");
 
-    @Override
-    public void speedRise() {
-        System.out.println(speed);
 
-    }
 
-    @Override
-    public void bikeParts() {
-        System.out.println("my name is"+" " + vendor +" "+"i got" + wheelSize +"inches wheel ," + " " + forkType );
 
     }
 }

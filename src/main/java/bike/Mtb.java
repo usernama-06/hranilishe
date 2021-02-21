@@ -2,20 +2,19 @@ package bike;
 
 public class Mtb extends BikeSpec implements Bicycle {
 
-    @Override
+    public String vendor ="haro";
+    public String bikeType ="MTB";
+    public int wheelSize = 26;
+    public int chainRingSize = 15;
+    public int chainRingsCount;
+    public String forkType;
+    public int speed;
+
+    public Mtb() {
+
+    }
+
     public void ride() {
-        System.out.println("lets ride MTB");
-
-    }
-
-    @Override
-    public void speedRise() {
-        System.out.println(speed);
-
-    }
-
-    @Override
-    public void bikeParts() {
-        System.out.println("my name is"+" " + vendor +" "+"i got" + wheelSize +"inches wheel ," + " " + forkType );
+        System.out.println("i'm");
     }
 }

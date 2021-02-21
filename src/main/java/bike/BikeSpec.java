@@ -2,23 +2,25 @@ package bike;
 
 public abstract class BikeSpec {
 
-     public String vendor;
-     public String bikeType;
-     public int wheelSize;
-     public int chainRingSize;
-     public int chainRingsCount;
-     public String forkType;
-     public int speed;
+    public static String bikeType;
+    public static int wheelSize;
+    public int chainRingSize;
 
     public String howToRide() {
-        String howToDo = "jus pedal";
+        String howToDo = "just pedal";
         System.out.println(howToDo);
         return howToDo;
     }
 
-    public void jump(){
-        System.out.println("Lift front and push handlebar forward");
+    public static String jump() {
+        String jump = "Lift front and push handlebar forward";
+        System.out.println(jump);
+        return jump;
     }
 
-
 }
+
+
+
+
+
